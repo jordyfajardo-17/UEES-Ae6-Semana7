@@ -1,5 +1,9 @@
 # Pull Request Ae6
 
+Publicado: https://github.com/jordyfajardo-17/UEES-Ae6-Semana7/pull/1
+
+Reporte técnico: `05_REPORTE_TECNICO_Ae6.pdf` (cuatro páginas).
+
 ## Objetivo
 Proteger las reglas de cancelación, descuentos y confirmación del módulo de reservas y entregar evidencia reproducible de Ae6.
 

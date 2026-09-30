@@ -1,0 +1,6 @@
+54bbce7 (HEAD -> ae6/suite-pruebas, origin/ae6/suite-pruebas) docs: interpretar JaCoCo y completar trazabilidad y autorrevision
+a7ca128 test: cerrar rama de reserva nula detectada con JaCoCo
+ce9594d test: verificar confirmacion y rechazo con stub y mocks
+1e78924 test: cubrir limites de cancelacion y reglas de descuentos
+a300a26 docs: diseñar matriz de casos ae6
+10a1565 (origin/main, origin/HEAD, main) chore: registrar proyecto base semana 7

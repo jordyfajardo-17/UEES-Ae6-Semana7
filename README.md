@@ -10,6 +10,8 @@ La rama `ae6/suite-pruebas` añade 15 casos de negocio y conserva la prueba inic
 - [Análisis de cobertura](docs/02_ANALISIS_COBERTURA_PLANTILLA.md)
 - [Descripción del Pull Request](docs/03_PULL_REQUEST_PLANTILLA.md)
 - [Autorrevisión](docs/04_AUTORREVISION.md)
+- [Reporte técnico de cuatro páginas](docs/05_REPORTE_TECNICO_Ae6.pdf)
+- [Pull Request 1](https://github.com/jordyfajardo-17/UEES-Ae6-Semana7/pull/1)
 - [Evidencias de ejecución y métricas](docs/evidencias)
 
 Usa Java 21 y comprueba `mvn -version` antes de ejecutar `mvn clean test`. En este equipo, Java 21 está incluido en la extensión Java de VS Code; el Java 26 predeterminado no es compatible con JaCoCo 0.8.12. La ruta local usada se registra en el reporte, pero no es un requisito portable.
