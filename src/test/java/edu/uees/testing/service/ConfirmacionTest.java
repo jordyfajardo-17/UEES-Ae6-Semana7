@@ -20,6 +20,17 @@ class ConfirmacionTest {
     @Mock Notificador notificador;
 
     @Test
+    void reservaNulaSeRechazaAntesDeConsultarDependencias() {
+        ReservaService servicio = new ReservaService(disponibilidad, repository, notificador);
+
+        IllegalArgumentException error = assertThrows(IllegalArgumentException.class,
+                () -> servicio.confirmar(null));
+
+        assertEquals("Reserva obligatoria", error.getMessage());
+        verifyNoInteractions(disponibilidad, repository, notificador);
+    }
+
+    @Test
     void disponibleConfirmaGuardaYNotificaLaMismaReserva() {
         // Arrange: disponibilidad actúa como stub; los otros colaboradores como mocks.
         Reserva reserva = new Reserva("R-001", "NORMAL");
